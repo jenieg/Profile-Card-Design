@@ -1,0 +1,38 @@
+/******************************************
+/* BASE STYLES
+/*******************************************/
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+     background-color: hsl(185, 75%, 39%);
+     font-family: 'Kumbh Sans', sans-serif;
+     font-size: 18px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.attribution { 
+     font-size: 11px; text-align: center; 
+}
+.attribution a { 
+     color: hsl(228, 45%, 44%)
+}

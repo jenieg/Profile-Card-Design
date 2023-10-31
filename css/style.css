@@ -23,9 +23,15 @@
 /* LAYOUT
 /*******************************************/
 body {
+     background:    url(../images/bg-pattern-top.svg) top left / 50% 50% no-repeat,
+                    url(../images/bg-pattern-bottom.svg) bottom right / 50% 50% no-repeat;
      background-color: hsl(185, 75%, 39%);
      font-family: 'Kumbh Sans', sans-serif;
      font-size: 18px;
+}
+
+.container {
+     height: 100vh;
 }
 /******************************************
 /* ADDITIONAL STYLES

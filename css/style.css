@@ -23,22 +23,49 @@
 /* LAYOUT
 /*******************************************/
 body {
-     background:    url(../images/bg-pattern-top.svg) top left / 50% 50% no-repeat,
-                    url(../images/bg-pattern-bottom.svg) bottom right / 50% 50% no-repeat;
+     min-height: 98vh;
+     width: 100%;
+     background:    url(../images/bg-pattern-top.svg),
+                    url(../images/bg-pattern-bottom.svg);
+     background-position: right 50vw bottom 44vh , left 50vw top 60vh;
+     background-repeat: no-repeat;
      background-color: hsl(185, 75%, 39%);
      font-family: 'Kumbh Sans', sans-serif;
-     font-size: 18px;
+     color: hsl(227, 10%, 46%);
+     font-weight: 18px;
+     text-align: center;
 }
 
 .container {
      height: 100vh;
+     display: flex;
+     align-items: center;
 }
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
-.attribution { 
-     font-size: 11px; text-align: center; 
+
+.widget {
+     margin: auto;
+     height: 25rem;
+     width: 20rem;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: #fff;
+     background-image: url(../images/bg-pattern-card.svg);
+     background-repeat: no-repeat;
+     border-radius: 1rem;
 }
-.attribution a { 
-     color: hsl(228, 45%, 44%)
+
+.card {
+     padding-top: 5.5rem;
 }
+
+.round {
+     border-radius: 50%;
+     border: 5px solid #fff;
+}
+
+.bold {
+     font-weight: 700;
+     color: hsl(229, 23%, 23%);
+}
+

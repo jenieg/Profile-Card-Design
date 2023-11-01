@@ -21,7 +21,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Links
 
 - [GitHub Repository](https://github.com/jenieg/Profile-Card-Design)
-- [Live Site](https://your-live-site-url.com)
+- [Live Site](https://jenieg.github.io/Profile-Card-Design/)
 
 ## My process
 

@@ -16,7 +16,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](/profile-card-component-main/images/frontendmentor-profilecard.png)
+![](/images/frontendmentor-profilecard.png)
 
 ### Links
 
